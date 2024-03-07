@@ -1,0 +1,111 @@
+.display{
+    display: flex;
+    gap: 60%;
+}
+
+
+.div1{
+    background-image: url(home3.jpg);
+    
+    padding: 200px;
+    width: 100%;
+    height: 90%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+
+.bg-imgage{
+    position: relative;
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+  
+  .heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.text{
+top: 30%;
+left: 50%;
+position: absolute;
+text-align: center
+}
+.line{
+    display: flex;
+    gap: 100px;
+}
+.topnav{
+    display: flex;
+    gap: 100px;
+}
+.brief{
+    text-align: left;
+    position: absolute;
+}
+.left{
+    text-align: left;
+    position: absolute;
+
+}
+.easy::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+.column{
+    
+    width: 100%;
+    padding:30px
+    
+
+}
+.div2{
+    width: 100%;
+    padding: 30px;
+}
+ 
+   .points{
+    display: grid;
+    grid-template-columns: 2px;
+    margin: auto;
+   } 
+   .leading{
+    display: flex;
+    gap:2%;
+   }
+   .services{
+    text-align: center;
+   }
+   .general{
+    display: flex;
+    gap: 100px;
+   }
+   .Easy{
+    display: flex;
+    gap: 50px;
+   }
+   .paragraph{
+
+   }
+
+
+
+
+
+
+
+
+
+
+   @media all and (max-width: 500px){
+
+
+   }
+   body{
+
+    overflow-x: hidden;
+   }
